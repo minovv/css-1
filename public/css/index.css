@@ -1,0 +1,41 @@
+/* task 1 */
+:root {
+    background-color: white;
+}
+
+/* task 2 */
+* {
+    color: black;
+}
+
+/* task 3 */
+div > h1 {
+    background-color: blue;
+}
+
+/* task 4 */
+div > .green {
+    color: green;
+}
+
+/* task 5 */
+#blue {
+    color: blue;
+}
+
+/* task 6.1 */
+.box {
+    background-color: green;
+}
+
+/* task 6.2 */
+.box > p {
+    background-color: red;
+}
+
+/* task 7 */
+div > section.green {
+    background-color: green;
+    color: white;
+}
+
