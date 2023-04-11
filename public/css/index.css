@@ -39,3 +39,138 @@ div > section.green {
     color: white;
 }
 
+/* task 8 */
+ul > li {
+    background-color: red;
+}
+
+/* task 9 */
+.header-button ~ span {
+    background-color: red;
+}
+
+/* task 10 */
+.susid + p {
+    background-color: blue;
+    color: white;
+}
+
+/* task 11 */
+.salo, #bread {
+    background-color: yellow;
+}
+
+/* lesson 2 */
+/* task 1 */
+.first-task li:first-child {
+    color: white;
+}
+
+/* task 2 */
+.second-task ul:first-of-type li:first-child {
+    color: yellow;
+}
+
+/* task 3 */
+.third-task ul:last-of-type li:first-child {
+    color: yellow;
+}
+
+/* task 4 */
+.four-task li:last-child {
+    color: yellow;
+}
+
+/* task 5 */
+.five-task, ul:last-of-type li:last-child {
+    color: white;
+}
+
+/* task 6 */
+.only-child-task div:only-child {
+    color: red;
+}
+
+/* task 7 */
+.seven-task p:first-of-type {
+    background-color: red;
+}
+
+/* task 8 */
+.eight-task p:last-of-type {
+    background-color: red;
+}
+
+/* task 9 */
+.nine-task p:only-of-type {
+    background-color: yellow;
+}
+
+/* lesson 3 */
+/* task 1 */
+[href] {
+    color: white;
+}
+
+/* task 2 */
+[value] {
+    color: yellow;
+}
+
+/* task 3 */
+[value='3'] {
+    background-color: red;
+}
+
+/* task 4 */
+.lesson-three-task-four [class*='primary'] {
+    background-color: blue;
+}
+
+/* task 5 */
+.lesson-three-task-five [class^='secondary'] {
+    background-color: red;
+}
+
+/* task 6 */
+.lesson-three-task-six [class^='b'] {
+    background-color: white;
+    color: green;
+}
+
+/* task 7 */
+.lesson-three-task-seven [class*='on'] {
+    background-color: white;
+    color: green;
+}
+
+/* task 8 ???*/
+.lesson-three-task-eight [class$='s'] {
+    color: red;
+    background-color: white;
+}
+
+/* task 9 */
+.lesson-three-task-nine ::first-letter {
+    color: red;
+}
+
+/* task 10 */
+.lesson-three-task-ten ::first-line {
+    color: yellow;
+}
+
+/* task 11 */
+.lesson-three-task-eleven ::placeholder {
+    background-color: red;
+}
+
+/* task 12 */
+.lesson-three-task-twelve li::before {
+    content: '> ';
+}
+
+/* task 13 */
+.lesson-three-task-thirteen li::after {
+    content: ' >';    
+}
