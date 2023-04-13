@@ -50,7 +50,7 @@ ul > li {
 }
 
 /* task 10 */
-.susid + p {
+.susid ~ p {
     background-color: blue;
     color: white;
 }
@@ -73,16 +73,16 @@ ul > li {
 
 /* task 3 */
 .third-task ul:last-of-type li:first-child {
-    color: yellow;
+    background-color: yellow;
 }
 
 /* task 4 */
 .four-task li:last-child {
-    color: yellow;
+    background-color: yellow;
 }
 
 /* task 5 */
-.five-task, ul:last-of-type li:last-child {
+.five-task ul:last-of-type li:last-child {
     color: white;
 }
 
@@ -113,7 +113,7 @@ ul > li {
 }
 
 /* task 2 */
-[value] {
+[value='1'] {
     color: yellow;
 }
 
@@ -156,8 +156,8 @@ ul > li {
 }
 
 /* task 10 */
-.lesson-three-task-ten ::first-line {
-    color: yellow;
+.lesson-three-task-ten p:first-of-type::first-line {
+    background-color: yellow;
 }
 
 /* task 11 */
@@ -167,10 +167,10 @@ ul > li {
 
 /* task 12 */
 .lesson-three-task-twelve li::before {
-    content: '> ';
+    content: '➤ ';
 }
 
 /* task 13 */
 .lesson-three-task-thirteen li::after {
-    content: ' >';    
+    content: ' ➤';    
 }
